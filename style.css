@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+    align-items: center;
+}
+
+/* box 1 */
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    height: 50px;
+    background-image: url(AmazonLogo.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+/* box 2 */
+.nav-address{
+    text-align: center;
+    height: 50px;
+    width: 85px;
+    color: #cccccc;
+    font-size: 0.75rem;
+}
+
+.add-text{
+    margin-top: 7px;
+    margin-left: 25px;
+}
+.address-icon{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* box 3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+    background-color: pink;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 51.33px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search{
+    /* flex-grow: 1; */
+    width: 100%;
+    font-size: 15px;
+    border: none;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 45px;
+    background-color: rgb(221, 167, 67);
+    color: #0f1111;
+    font-size:large;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.search-icon:hover{
+    background-color: orange;
+}
+
+/* box 4 */
+.Nation-text{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 60px;
+    margin-left: 10px;
+    color: white;
+}
+
+.AfterNationIcon{
+    color: grey;
+    font-size:x-small;
+    position: relative;
+    top: 4px;
+}
+
+/* box 5 */
+
+.sign-in{
+    height:50px;
+    width: 130px;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    background-color: #0f1111;
+}
+
+.sign-text-1{
+    font-size: 14px;
+}
+
+.sign-text-2{
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.after-icon{
+    position: relative;
+    top: 0px;
+}
+
+/* box 6 */
+.returns{
+    height: 50px;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0f1111;
+    color: #fff;
+}
+
+.returns-text-1{
+    font-size: 14px;
+}
+
+.returns-text-2{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/* box 6 */
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 83px;
+    background-color: #0f1111;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.cart_icon{
+    font-weight: bold;
+    color: #fff;
+}
+
+.term{
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+.cart_icon{
+    font-size:x-large;
+}
+
+.number{
+    color: orange;
+}
+
+/* panel */
+
+.panel{
+    height: 39px;
+    display: flex;
+    padding-right: 11px;
+    flex-direction: row;
+    justify-content: none;
+    align-items: center;
+    background-color:  	#232f3e;
+}
+
+.fa-solid fa-bars,.all{
+    width: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #f3f3f3;
+}
+
+.all{
+    margin-left: 4px;
+    font-weight: 700;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    height: 39px;
+    color: #f3f3f3;
+    font-size: 14px;
+    background-color: #232f3e;
+    align-items: center;
+}
+
+.todayDeals{
+    width: 102px;
+    text-align: center;    
+    padding:8px
+}
+
+.customerService{
+    width: 127px;
+    text-align: center; 
+    padding:8px
+}
+
+.registry{
+    width: 69px;
+    text-align: center; 
+    padding:8px
+}
+
+.giftCards{
+    width: 80px;
+    text-align: center; 
+    padding:8px
+}
+
+.sell{
+    width: 40px;
+    text-align: center; 
+    padding:8px
+}
+
+.hero-section{
+    background-image: url(prime_ad2.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+.hero-msg{
+    position: relative;
+    top: 300px;
+    height: 35px;
+    width: 98%;
+    margin: 0 auto;
+    font-size: 14px;
+    background-color: #f3f3f3;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazon_link{
+    position: relative;
+    left: 4px;
+    color: #1a2e46;
+    text-decoration: none;
+}
+
+.amazon_link:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.shop-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+}
+.box{
+    position: relative;
+    bottom: 240px;
+    height: 330px;
+    border: 1px solid black;
+    width: 20%;
+    background-color: white;
+    padding: 0px 20px;
+}
+
+.box-1-image,.box-2-image,.box-3-image,.box-4-image{
+    height: 230px;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    background-size: cover;
+}
+
+.box-text{
+    color: #232f3e;
+    position:relative;
+    left: 6px;
+    top: 30px;
+    font-size: 14px;
+}
+
+.box-text:hover{
+    color: orange;
+}
+
+.box-1-1,.box-1-2,.box-1-3,.box-1-4{
+    position:relative;
+    bottom: 220px;
+    height: 350px;
+}
+
+.t1:hover,.t2:hover,.t3:hover,.t4:hover{
+    text-decoration: underline;
+}
